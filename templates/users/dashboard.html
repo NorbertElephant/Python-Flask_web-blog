@@ -1,0 +1,10 @@
+{# USERS  dashboard.HTML #}
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <h1>Dashboard <small> welcome {{session.username}} </small> </h1>
+
+    <a class="btn-success" href="/articles/create"> Créer un Article </a>
+
+{% endblock %}
